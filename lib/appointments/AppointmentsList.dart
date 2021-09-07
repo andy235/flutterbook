@@ -84,8 +84,7 @@ class AppointmentsList  extends StatelessWidget {
                                     child: Column(
                                         children: [
                                           Text(
-                                              DateFormat.yMMMMd("en_US").format(
-                                                  inDate.toLocal()),
+                                              DateFormat.yMMMMd("en_US").format(inDate.toLocal()),
                                               textAlign: TextAlign.center,
                                               style: TextStyle(color: Theme
                                                   .of(inContext)
@@ -116,10 +115,10 @@ class AppointmentsList  extends StatelessWidget {
                                                       apptTime = " (${at.format(inContext)})";
                                                     }
                                                     return Slidable(
-                                                        actionPane: SlidableDrawerActionPane(),                                                        actionExtentRatio: .25,
+                                                        actionPane: SlidableDrawerActionPane(),
+                                                        actionExtentRatio: .25,
                                                         child: Container(
-                                                            margin: EdgeInsets.only(
-                                                                bottom: 8),
+                                                            margin: EdgeInsets.only(bottom: 8),
                                                             color: Colors.grey.shade300,
                                                             child: ListTile(
                                                                 title: Text(
