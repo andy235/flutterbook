@@ -1,6 +1,6 @@
 # flutterbook
 
-A new Flutter project.
+To do app from "Flutter in action" Book.
 
 ## Getting Started
 
